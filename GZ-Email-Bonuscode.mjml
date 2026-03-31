@@ -1,0 +1,313 @@
+<mjml>
+  <mj-head>
+
+    <mj-title>Vegas</mj-title>
+    <!--!-------------------------------------DONT TUCH---------------------------------------->
+    <mj-attributes>
+      /* background colors */
+      <mj-class name="bg" background-color="#1E1C59" />
+      <mj-class name="bg-footer" background-color="#15151F" />
+      <mj-class name="bg-btn" background-color="#FFEE59" />
+      <mj-class name="bg-block" background-color="#FFF5DD" />
+      <mj-class name="bg-btnSecondar" background-color="#1E1D5A" />
+      /* Font styles */
+      <mj-class name="fontSizeTitle-36" font-size="36px" line-height="43px" />
+      <mj-class name="fontSizeText-24" font-size="24px" line-height="29px" />
+      <mj-class name="fontSizeText-22" font-size="22px" line-height="26px" />
+      <mj-class name="fontSizeText-18" font-size="18px" line-height="22px" />
+      <mj-class name="fontSizeText-16" font-size="16px" line-height="29px" />
+      <mj-class name="fontSizeTextItalic-16" font-size="16px" line-height="20px" font-style="italic" />
+      <mj-class name="fontSizeTextSecond-16" font-size="16px" line-height="20px" />
+      <mj-class name="fontSize-14" font-size="14px" line-height="17px" />
+      <mj-class name="fontSizeText-12" font-size="12px" line-height="16px" font-weight="400" />
+      <mj-class name="fontSizeSecond-12" font-size="12px" line-height="21px" />
+      /* MJML Text Base */
+      <mj-text font-family="Arial, sans-serif" font-weight="700" padding="0" />
+      /* Font colors Base */
+      <mj-class name="light" color="#fff" />
+      <mj-class name="grey" color="#B8BBC8" />
+      <mj-class name="dark" color="#1F1F1F" />
+      <mj-class name="secondaryDark" color="#1E1D5A" />
+      <mj-class name="yellow" color="#FFEE59" />
+      <mj-class name="blue" color="#1A59FB" />
+      <mj-class name="violet" color="#8D19E8" />
+      <mj-class name="orange" color="#FF9B26" />
+      /* Font colors */
+      <mj-class name="primary" color="#FBFAF5" />
+      <mj-class name="secondary" color="#2BCDF0" />
+      <mj-class name="tertinary" color="#BADAEE" />
+      /* MJML Button */
+      <mj-button font-size="14px" font-weight="700" line-height="20px" padding="0" />
+      /* MJML Attributes */
+      <mj-image padding="0" />
+      <mj-section padding="0" />
+      <mj-column padding="0" />
+      <mj-divider border-color="#1D2124" border-width="1px" padding="30px 18px 30px 18px" />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      .foo {
+        display: inline-block !important;
+        vertical-align: middle !important;
+      }
+    </mj-style>
+
+    <mj-style>
+      @media (max-width: 480px) {
+        .text-fix div {
+          text-align: center !important;
+          margin-top: 12px !important;
+        }
+
+        .img-prize {
+          margin: 0 auto 8px !important;
+        }
+        .img-prize img {
+          margin: 0 auto 10px !important;
+        }
+
+
+        .text-prize p {
+          display: block !important;
+          width: 90% !important;
+          margin: 0 auto 8px !important;
+        }
+
+        .text-bonus {
+          width: 90% !important;
+          margin: 12px auto 8px !important;
+
+        }
+
+        .text-bonus tr {
+          display: inline-block;
+          padding-top: 2px !important;
+          padding-left: 15px !important;
+        }
+      }
+
+      @media (max-width: 350px) {
+        .text-bonus tr {
+          padding-left: 5px !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#1E1C59">
+    <mj-wrapper padding="0 10px">
+      <mj-section full-width="full-width" padding="24px 10px 20px">
+        <mj-column width="100%">
+          <!--!-------------------------------------LOGO IMG------------------------------------------>
+          <mj-image src="./img/logo2.png" width="162px" alt="Logo" />
+        </mj-column>
+      </mj-section>
+      <mj-section full-width="full-width">
+        <mj-column width="100%" padding="0 0 20px">
+          <!--!-------------------------------------BANNER IMG---------------------------------------->
+          <mj-image src="./img/banner2.png" href="https://google.com" target="_blank" padding="0" alt="HB" />
+        </mj-column>
+      </mj-section>
+      <mj-section full-width="full-width" padding="0 0 20px">
+        <mj-column width="100%" padding="0">
+          <mj-text mj-class="fontSizeText-16 light" align="left">
+            <!--!-------------------------------------TEXT-------------------------------------------->
+            Reactoonz 2 at Rollino! Spend your weekend with PlaynGO's TOP slots!
+            3 days in Rollino: 140% bonus + 350 Freespins + 10 coins!
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section full-width="full-width" background-color="#FFECBE" border-radius="20px" padding="20px 0">
+        <mj-column width="10%" vertical-align="middle">
+          <!--!------------------------------------ IMG---------------------------------------->
+          <mj-image src="./img/logo.jpg" alt="prize" css-class="img-prize" />
+        </mj-column>
+        <!--!-------------------------------------TEXT---------------------------------------->
+        <mj-column width="25%" vertical-align="middle" css-class="text-prize">
+          <mj-text align="center" mj-class="fontSizeText-14">
+            <p style="border: 1px solid #999FFF; color: #8D19E8; border-radius: 20px; background: #FFF5DD; display: inline-block; padding:5px; margin:0 0 4px; width: 100px;">
+              Bonus 20%
+            </p>
+            <!--!-------------------------------------TEXT---------------------------------------->
+            <p style="border:1px solid #999FFF; color: #8D19E8; border-radius: 20px; background: #FFF5DD; display: inline-block; padding:5px; margin:0; width: 100px;">
+              +60 Freespins
+            </p>
+          </mj-text>
+        </mj-column>
+        <!--!-------------------------------------TEXT---------------------------------------->
+        <mj-column width="35%" vertical-align="middle">
+          <mj-text align="center" mj-class="fontSizeSecond-12" color="#1E1D5A" css-class="text-fix" padding="0 0 4px">
+            In Game:
+          </mj-text>
+          <mj-text align="center" mj-class="fontSizeSecond-12" padding="0">
+            <span style=" color: #1A59FB;">
+              Bigg Bass Bonanza
+            </span>
+          </mj-text>
+        </mj-column>
+        <!--!-------------------------------------TEXT---------------------------------------->
+        <mj-column width="25%" vertical-align="middle" css-class="text-bonus">
+          <mj-text align="center" mj-class="fontSizeSecond-12" color="#1E1D5A" css-class="text-fix" padding="0 0 8px">
+            Bonus Code:
+          </mj-text>
+          <!--!-------------------------------------BUTTON---------------------------------------->
+          <mj-button href="https://mjml.io" mj-class="fontSizeText-14" border-radius="24px" border="1px dashed #999FFF" background-color="#FFF5DD" color="#8D19E8">
+            Reactoonz_3
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section full-width="full-width" padding="20px 0 0">
+       
+      </mj-section>
+
+      <mj-section full-width="full-width" background-color="#FFECBE" border-radius="20px" padding="20px 0">
+        <mj-column width="10%" vertical-align="middle">
+          <!--!------------------------------------ IMG---------------------------------------->
+          <mj-image src="./img/logo.jpg" alt="prize" css-class="img-prize" />
+        </mj-column>
+        <!--!-------------------------------------TEXT---------------------------------------->
+        <mj-column width="25%" vertical-align="middle" css-class="text-prize">
+          <mj-text align="center" mj-class="fontSizeText-14">
+            <p style="border: 1px solid #999FFF; color: #8D19E8; border-radius: 20px; background: #FFF5DD; display: inline-block; padding:5px; margin:0 0 4px; width: 100px;">
+              Bonus 20%
+            </p>
+            <!--!-------------------------------------TEXT---------------------------------------->
+            <p style="border:1px solid #999FFF; color: #8D19E8; border-radius: 20px; background: #FFF5DD; display: inline-block; padding:5px; margin:0; width: 100px;">
+              +60 Freespins
+            </p>
+          </mj-text>
+        </mj-column>
+        <!--!-------------------------------------TEXT---------------------------------------->
+        <mj-column width="35%" vertical-align="middle">
+          <mj-text align="center" mj-class="fontSizeSecond-12" color="#1E1D5A" css-class="text-fix" padding="0 0 4px">
+            In Game:
+          </mj-text>
+          <mj-text align="center" mj-class="fontSizeSecond-12" padding="0">
+            <span style=" color: #1A59FB;">
+              Bigg Bass Bonanza
+            </span>
+          </mj-text>
+        </mj-column>
+        <!--!-------------------------------------TEXT---------------------------------------->
+        <mj-column width="25%" vertical-align="middle" css-class="text-bonus">
+          <mj-text align="center" mj-class="fontSizeSecond-12" color="#1E1D5A" css-class="text-fix" padding="0 0 8px">
+            Bonus Code:
+          </mj-text>
+          <!--!-------------------------------------BUTTON---------------------------------------->
+          <mj-button href="https://mjml.io" mj-class="fontSizeText-14" border-radius="24px" border="1px dashed #999FFF" background-color="#FFF5DD" color="#8D19E8">
+            Reactoonz_3
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section full-width="full-width" padding="20px 0 0">
+       
+      </mj-section>
+
+      <mj-section full-width="full-width" background-color="#FFECBE" border-radius="20px" padding="20px 0">
+        <mj-column width="10%" vertical-align="middle">
+          <!--!------------------------------------ IMG---------------------------------------->
+          <mj-image src="./img/logo.jpg" alt="prize" css-class="img-prize" />
+        </mj-column>
+        <!--!-------------------------------------TEXT---------------------------------------->
+        <mj-column width="25%" vertical-align="middle" css-class="text-prize">
+          <mj-text align="center" mj-class="fontSizeText-14">
+            <p style="border: 1px solid #999FFF; color: #8D19E8; border-radius: 20px; background: #FFF5DD; display: inline-block; padding:5px; margin:0 0 4px; width: 100px;">
+              Bonus 20%
+            </p>
+            <!--!-------------------------------------TEXT---------------------------------------->
+            <p style="border:1px solid #999FFF; color: #8D19E8; border-radius: 20px; background: #FFF5DD; display: inline-block; padding:5px; margin:0; width: 100px;">
+              +60 Freespins
+            </p>
+          </mj-text>
+        </mj-column>
+        <!--!-------------------------------------TEXT---------------------------------------->
+        <mj-column width="35%" vertical-align="middle">
+          <mj-text align="center" mj-class="fontSizeSecond-12" color="#1E1D5A" css-class="text-fix" padding="0 0 4px">
+            In Game:
+          </mj-text>
+          <mj-text align="center" mj-class="fontSizeSecond-12" padding="0">
+            <span style=" color: #1A59FB;">
+              Bigg Bass Bonanza
+            </span>
+          </mj-text>
+        </mj-column>
+        <!--!-------------------------------------TEXT---------------------------------------->
+        <mj-column width="25%" vertical-align="middle" css-class="text-bonus">
+          <mj-text align="center" mj-class="fontSizeSecond-12" color="#1E1D5A" css-class="text-fix" padding="0 0 8px">
+            Bonus Code:
+          </mj-text>
+          <!--!-------------------------------------BUTTON---------------------------------------->
+          <mj-button href="https://mjml.io" mj-class="fontSizeText-14" border-radius="24px" border="1px dashed #999FFF" background-color="#FFF5DD" color="#8D19E8">
+            Reactoonz_3
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section full-width="full-width" padding="20px 0 0">
+        <mj-column width="100%" padding="0">
+          <mj-text mj-class="fontSizeText-14 orange" align="center">
+            <!--!-------------------------------------TEXT-------------------------------------------->
+            Deposit from €25
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section full-width="full-width" padding="20px 0 0">
+        <mj-column width="100%" padding="0">
+          <mj-text mj-class="fontSizeText-16 light" align="left">
+            <!--!-------------------------------------TEXT-------------------------------------------->
+            Please note that our bonus is NOT STICKY!<br>
+            Winning the bonus is NOT LIMITED!
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section full-width="full-width" padding="16px 0 0">
+        <mj-column width="100%" padding="0">
+          <mj-text mj-class="fontSizeText-16 light" align="left">
+            <!--!-------------------------------------TEXT-------------------------------------------->
+            The promotion is valid until 15.10.25, and you can get each bonus code for deposits during the promotion period.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section full-width="full-width" padding="16px 0 40px">
+        <mj-column width="100%" padding="0">
+          <mj-text mj-class="fontSizeText-16 light" align="left">
+            <!--!-------------------------------------TEXT-------------------------------------------->
+            To get this bonus, make a payment for the desired amount, and then contact the <a href="https://mjml.io" target="_blank" style="text-decoration:none !important; color:#FFEE59;">Live Chat</a> on the casino page to credit the bonus.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+
+    <mj-section full-width="full-width" padding="20px 0 17px" mj-class="bg-footer">
+      <mj-column width="100%" padding="0 0 20px">
+        <mj-text mj-class="fontSizeText-16 light" align="center">
+          <!--!-------------------------------------TEXT-------------------------------------------->
+          <a href="https://mjml.io" target="_blank" style=" color:#fff;">Unsubscribe</a>
+        </mj-text>
+      </mj-column>
+      <mj-column width="14%" css-class="foo">
+        <!--!-------------------------------------LOGO FOOTER---------------------------------------->
+        <mj-image src="./img/only.png" alt="footer_logo" align="center" width="38px" padding="0 0 15px" />
+      </mj-column>
+      <mj-column width="22%" css-class="foo">
+        <mj-text mj-class="fontSizeText-12 grey" align="left" css-class="text-fix" padding="0 0 15px">
+          <!--!-------------------------------------TEXT---------------------------------------->
+          2026 © Vegas <br> All rights reserved
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+
+</mjml>
