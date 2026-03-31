@@ -99,7 +99,7 @@
       <mj-section full-width="full-width" padding="24px 10px 20px">
         <mj-column width="100%">
           <!--!-------------------------------------LOGO IMG------------------------------------------>
-          <mj-image src="./img/logo2.png" width="162px" alt="Logo" />
+          <mj-image src="./img/logo2.png" width="90px" alt="Logo" />
         </mj-column>
       </mj-section>
       <mj-section full-width="full-width">
